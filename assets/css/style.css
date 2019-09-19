@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+}
+
+main {
+    height: 80vh;
+    position: relative
+}
+
+body {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../images/email-pattern.png");
+
+}
+
+nav {
+    display: table;
+    width: 100%;
+    background-color: rgba(174, 210, 224, 0.432);
+}
+
+.nav-link-container {
+    display: table;
+    float: right;
+    height: 10vh;
+    margin-right: 120px;
+}
+
+.nav-link {
+    display: table-cell;
+    vertical-align: middle;
+    text-decoration: none;
+    color: black;
+}
+
+nav-link:hover {
+    transform: translate(-2px, -4px);
+    text-shadow: 2px 2px;
+}
+
+nav-link {
+    display: inline-block;
+    font-size: 1, 25rem;
+    transition: all 0.15s ease-in;
+}
+
+.nav-link:not(:last-child) {
+    padding-right: 20px;
+}
+
+.name {
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 120px;
+}
+
+.name,
+.nav-link {
+    letter-spacing: 3px;
+}
+
+.name {
+    background-color: gray;
+    width: 150px;
+    margin-right: 25x;
+
+
+}
+
+.container {
+    position: absolute;
+    height: 300px;
+    width: 600px;
+    background-color: aqua;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0, 5);
+}
+
+.card-header-text {
+    display: table-cell;
+    color: white;
+    vertical-align: middle;
+    text-align: center;
+
+}
+
+
+footer {
+    background-color: rgba(133, 125, 125, 0.521);
+    height: 10vh;
+}
+
+img {
+    height: 180px;
+    width: 150px;
+    float: left;
+    padding: 10px;
+}
+
+.card-text {
+    float: right;
+
+
+}
