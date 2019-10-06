@@ -189,3 +189,12 @@ h1 {
     transform: translate(0%, 60px);
     color: #ffffff;
 }
+
+.box4 {
+    height: 250px;
+    width: 300px;
+    float: left;
+    background-image: url("https://i.stack.imgur.com/Z5pbI.png");
+    background-size: cover;
+    margin-right: 50px;
+}
