@@ -198,3 +198,12 @@ h1 {
     background-size: cover;
     margin-right: 50px;
 }
+
+.box5 {
+    height: 250px;
+    width: 300px;
+    float: left;
+    background-image: url("https://retrostylegames.com/img/2019/06/2d-Illustration-Game-Background-Garden-Bench.jpg");
+    background-size: cover;
+    margin-right: 50px;
+}
