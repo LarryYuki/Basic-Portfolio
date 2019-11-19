@@ -14,11 +14,10 @@ body {
     background-image: url("../images/email-pattern.png");
 }
 
-
 .nav-link-container {
     display: table;
     float: right;
-    margin-right: 120px;
+    margin-right: 20px;
     height: 10vh;
 }
 
@@ -65,18 +64,17 @@ nav-link {
     background-color: #4aaaa5;
 }
 
+header,
 .container1 {
-    width: 960px;
-    height: 10vh;
-    margin-left: auto;
-    margin-right: auto;
+    background-color: #fff;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    position: relative;
+    max-width: 960px;
+    height: 100%;
+    margin: 0 auto;
 
-}
-
-.header {
-    height: 10vh;
-    width: 100%;
-    background-color: white;
 }
 
 
@@ -88,15 +86,22 @@ nav-link {
 
 
 .container {
-    position: absolute;
+    /* position: absolute;
     height: 70vh;
     width: 960px;
     background-color: #ffffff;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0, 5);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0, 5); */
+
+    display: flex;
+    justify-content: center;
+    max-width: 960px;
+    min-height: 80vh;
+    margin: 0 auto;
 }
+
 
 .card-header-text {
     display: table-cell;
@@ -110,6 +115,8 @@ nav-link {
 
 footer {
     background-color: #6666666e;
+    width: 100%;
+    margin-top: auto;
     height: 10vh;
 }
 
@@ -150,4 +157,126 @@ textarea {
 
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+
+.card-info {
+    padding-left: 10px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    max-width: 960px;
+    min-height: 80vh;
+    margin: auto;
+    /* justify-content: space-between; */
+}
+
+.box1 {
+    height: 250px;
+    width: 300px;
+    /* float: left; */
+    background-image: url("https://static01.nyt.com/images/2017/09/27/dining/27INSTAPOT1/27INSTAPOT1-superJumbo.jpg");
+    background-size: cover;
+    margin-right: 10px;
+}
+
+.textbox {
+    background-color: #6666667a;
+    text-align: center;
+    margin-bottom: 5px;
+    transform: translate(0%, 60px);
+    color: #ffffff;
+
+}
+
+
+.box2 {
+    height: 250px;
+    width: 300px;
+    float: left;
+    background-image: url("https://coleandmarmalade.com/wp-content/uploads/2019/06/cat-4262034_1280-e1561555501321.jpg");
+    background-size: cover;
+    margin-right: 10px;
+}
+
+.textbox1 {
+    background-color: #66666667;
+    text-align: center;
+    margin-bottom: 5px;
+    transform: translate(0%, 60px);
+    color: #ffffff;
+}
+
+
+
+.box3 {
+    height: 250px;
+    width: 300px;
+    /* float: left; */
+    background-image: url("https://i.stack.imgur.com/Z5pbI.png");
+    background-size: cover;
+    margin-right: 10px;
+}
+
+.textbox2 {
+    background-color: #66666667;
+    text-align: center;
+    margin-bottom: 5px;
+    transform: translate(0%, 60px);
+    color: #ffffff;
+}
+
+
+.box4 {
+    height: 250px;
+    width: 300px;
+    /* float: left; */
+    background-image: url("https://retrostylegames.com/img/2019/06/2d-Illustration-Game-Background-Garden-Bench.jpg");
+    background-size: cover;
+    /* margin-right: 10px; */
+}
+
+.textbox3 {
+    background-color: #66666667;
+    text-align: center;
+    margin-bottom: 5px;
+    transform: translate(0%, 60px);
+    color: #ffffff;
+}
+
+
+.G,
+.L,
+p,
+.card-header-text {
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    color: white;
+}
+
+@media screen and (max-width:520px) {
+
+    .container1,
+    .container {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+
+    img {
+        float: none;
+        width: 300px;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    body {
+        min-height: 75vh;
+    }
 }
